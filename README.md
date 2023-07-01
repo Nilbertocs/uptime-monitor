@@ -63,8 +63,8 @@ Requirements:
 # Update your npm to the latest version
 npm install npm -g
 
-git clone https://github.com/louislam/uptime-kuma.git
-cd uptime-kuma
+git clone https://github.com/Nilbertocs/uptime-monitor.git
+cd uptime-monitor
 npm run setup
 
 # Option 1. Try it
@@ -75,7 +75,7 @@ node server/server.js
 npm install pm2 -g && pm2 install pm2-logrotate
 
 # Start Server
-pm2 start server/server.js --name uptime-kuma
+pm2 start server/server.js --name uptime-monitor
 
 
 ```
